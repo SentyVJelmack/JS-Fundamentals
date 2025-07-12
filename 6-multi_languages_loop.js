@@ -6,10 +6,8 @@ const lines = [
 
 let output = "";
 for (let i = 0; i < lines.length; i++) {
-  output += lines[i];
-  if (i !== lines.length - 1) {
-    output += "\n";
-  }
+  output += lines[i] + "\n";
 }
 
-console.log(output);
+console.log(output.trim());
+
